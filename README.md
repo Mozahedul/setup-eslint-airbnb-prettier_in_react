@@ -22,7 +22,7 @@ During this process, follow the enforce style guide and popular style guide.
 # Install other packages:
 Open package.json file and paste the codes inside the scripts …
  
-"lint": "npm i -D prettier && npm i -D eslint-plugin-prettier && npm i -D eslint-config-prettier"
+"lint": "npm i -D prettier && npm i -D eslint-plugin-prettier && npm i -D eslint-config-prettier && npm i -D eslint-config-react"
 
 Then run the code from terminal ...
 npm run lint
