@@ -22,13 +22,10 @@ During this process, follow the enforce style guide and popular style guide.
 # Install other packages:
 Open package.json file and paste the codes inside the scripts …
  
-"lint": "npm i -D prettier && npm i -D eslint-plugin-prettier && npm i -D eslint-config-prettier && npm i -D @babel/eslint-parser"
+"lint": "npm i -D prettier && npm i -D eslint-plugin-prettier && npm i -D eslint-config-prettier"
 
 Then run the code from terminal ...
 npm run lint
-
-# Add parser and rules in .eslintrc:
-"parser": "@babel/eslint-parser" add inside the rules --> "requireConfigFile": "off"
 
 # Now create config files for prettier :
 # .prettierrc file :
