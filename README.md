@@ -27,6 +27,9 @@ Open package.json file and paste the codes inside the scripts …
 Then run the code from terminal ...
 npm run lint
 
+# Check the react version in package.json and .eslintrc file:
+set the react version same both in package.json and .eslintrc.json file
+
 # Now create config files for prettier :
 # .prettierrc file :
 Create a file named .prettierrc ⇒ Open the .prettierrc → include the rules as many as you want same as 
