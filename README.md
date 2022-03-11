@@ -56,9 +56,7 @@ Create a .eslintignore file and copy the code from .gitignore file and paste ins
 To sort or organize import modules or dependency, use keyboard shortcut alt + shift + o
 
 Follow the <a href="https://github.com/Mozahedul/setup-eslint-airbnb-prettier_in_react/blob/main/package.json">package.json</a> 
-and <a href="https://github.com/Mozahedul/eslint-prettier-airbnb-react-setup/blob/main/.eslintrc.json">.eslintrc.json</a>
+and <a href="https://github.com/Mozahedul/setup-eslint-airbnb-prettier_in_react/blob/main/.eslintrc.json">.eslintrc.json</a>
 
 
  
-
-
