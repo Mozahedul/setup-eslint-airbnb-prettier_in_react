@@ -28,7 +28,7 @@ Then run the code from terminal ...
 npm run lint
 
 # Add parser and rules in .eslintrc:
-"parser": "@babel/eslint-parser"
+"parser": "@babel/eslint-parser" add inside the rules --> "requireConfigFile": "off"
 
 # Now create config files for prettier :
 # .prettierrc file :
