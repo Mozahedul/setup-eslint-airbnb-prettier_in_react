@@ -15,18 +15,16 @@
     "plugin:prettier/recommended",
     "prettier"
   ],
-
   "settings": {
     "react": {
       "version": "^17.0.2"
     }
   },
-
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 12,
+    "ecmaVersion": "latest",
     "sourceType": "module"
   },
   "plugins": ["react", "import", "jsx-a11y"],
@@ -49,7 +47,13 @@
     "node/prefer-promises/fs": "off",
     "no-path-concat": "off",
     "import/extensions": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "react/function-component-definition": "off"
   }
 }
-
