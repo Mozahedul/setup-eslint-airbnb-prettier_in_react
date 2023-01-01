@@ -1,59 +1,64 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true,
-    "node": true
-  },
-  "extends": [
-    "airbnb",
-    "airbnb/hooks",
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:import/recommended",
-    "plugin:prettier/recommended",
-    "prettier"
-  ],
-  "settings": {
-    "react": {
-      "version": "^17.0.2"
-    }
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
     },
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-  },
-  "plugins": ["react", "import", "jsx-a11y"],
-  "rules": {
-    "no-unused-vars": "warn",
-    "no-console": "off",
-    "func-names": "off",
-    "no-process-exit": "off",
-    "object-shorthand": "off",
-    "class-methods-use-this": "off",
-    "no-underscore-dangle": "off",
-    "node/exports-style": "off",
-    "node/file-extension-in-import": "off",
-    "node/prefer-global/buffer": "off",
-    "node/prefer-global/console": "off",
-    "node/prefer-global/process": "off",
-    "node/prefer-global/url-search-params": "off",
-    "node/prefer-global/url": "off",
-    "node/prefer-promises/dns": "off",
-    "node/prefer-promises/fs": "off",
-    "no-path-concat": "off",
-    "import/extensions": "off",
-    "react/jsx-filename-extension": "off",
-    "prettier/prettier": [
-      "error",
-      {
-        "endOfLine": "auto"
-      }
+    "extends": [
+      "airbnb",
+      "airbnb/hooks",
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:jsx-a11y/recommended",
+      "plugin:import/recommended",
+      "plugin:prettier/recommended",
+      "prettier"
     ],
-    "react/function-component-definition": "off"
+    "settings": {
+      "react": {
+        "version": "^18.2.0"
+      }
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "plugins": ["react", "import", "jsx-a11y"],
+    "rules": {
+      "no-unused-vars": "warn",
+      "no-console": "off",
+      "func-names": "off",
+      "no-process-exit": "off",
+      "object-shorthand": "off",
+      "class-methods-use-this": "off",
+      "no-underscore-dangle": "off",
+      "node/exports-style": "off",
+      "node/file-extension-in-import": "off",
+      "node/prefer-global/buffer": "off",
+      "node/prefer-global/console": "off",
+      "node/prefer-global/process": "off",
+      "node/prefer-global/url-search-params": "off",
+      "node/prefer-global/url": "off",
+      "node/prefer-promises/dns": "off",
+      "node/prefer-promises/fs": "off",
+      "no-path-concat": "off",
+      "import/extensions": "off",
+      "react/jsx-filename-extension": "off",
+      "react/react-in-jsx-scope": "off",
+      "react/prop-types": "off",
+      "react/jsx-props-no-spreading": "off",
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto",
+          "singleQuote": true,
+          "parser": "flow"
+        }
+      ],
+      "react/function-component-definition": "off"
+    }
   }
-}
