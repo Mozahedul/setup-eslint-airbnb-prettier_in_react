@@ -58,6 +58,10 @@ Create a .eslintignore file and copy the code from .gitignore file and paste ins
 # In Visual Studio Code :
 To sort or organize import modules or dependency, use keyboard shortcut alt + shift + o
 
+# Prettier extension setting in visual studio code
+Select VS Code -> View -> Command Palette, and type: Format Document With
+Then Configure Default Formatter... and then choose Prettier - Code formatter.
+
 Follow the <a href="https://github.com/Mozahedul/setup-eslint-airbnb-prettier_in_react/blob/main/package.json">package.json</a> 
 and <a href="https://github.com/Mozahedul/setup-eslint-airbnb-prettier_in_react/blob/main/.eslintrc.json">.eslintrc.json</a>
 
